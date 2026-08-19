@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    // --- Qué versión de JavaScript entendemos ---
+    "target": "ES2023",
+    "lib": ["ES2023"],
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+
+    // --- No generamos ficheros: solo comprobamos tipos ---
+    // Node 24 ejecuta los .ts directamente, así que tsc aquí solo hace de revisor.
+    "noEmit": true,
+
+    // --- Solo sintaxis que Node pueda borrar sin entenderla ---
+    // Prohíbe `enum`, `namespace` y otras construcciones que Node no sabe ejecutar.
+    "erasableSyntaxOnly": true,
+
+    // --- Rigor: el interruptor que hace útil a TypeScript ---
+    // Es la misma configuración que usa el proyecto real.
+    "strict": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["S*/src/**/*.ts"]
+}

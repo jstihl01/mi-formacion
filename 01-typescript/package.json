@@ -1,0 +1,14 @@
+{
+  "name": "bloque-01-typescript",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bloque 1 del curso: TypeScript sin frameworks",
+  "type": "module",
+  "scripts": {
+    "check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^24",
+    "typescript": "^5"
+  }
+}
