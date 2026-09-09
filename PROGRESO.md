@@ -4,7 +4,8 @@
 > **Instrucción para Claude:** lee este fichero antes de generar o corregir cualquier sesión, y
 > actualízalo al final de cada corrección.
 
-**Sesión actual:** Bloque 1 · S2 — Funciones, objetos y arrays → *pendiente de que yo la resuelva*
+**Sesión actual:** Bloque 1 · S2 — **ej3 a medias** (CASO 2 descomentado; faltan casos 3, 4 y 5).
+Después queda ej4.
 
 ---
 
@@ -13,7 +14,7 @@
 | Sesión | Tema | Estado | Corregida el |
 |---|---|---|---|
 | S1 | Entorno y tipos | ✅ corregida | 2026-08-20 |
-| S2 | Funciones, objetos y arrays | 📄 generada, sin resolver | — |
+| S2 | Funciones, objetos y arrays | ✍️ en curso (ej1 ✅, ej2 ✅, ej3 a medias, ej4 sin empezar) | — |
 | S3 | Transformar datos sin bucles | ⏳ no generada | — |
 | S4 | Asíncrono: promesas y `async`/`await` | ⏳ no generada | — |
 
@@ -21,9 +22,12 @@ Estados: ⏳ no generada · 📄 generada · ✍️ resuelta, pendiente de corre
 
 ---
 
-## Dudas abiertas
+## Pendiente de arreglar
 
-*(vacío)*
+- **S2 · ej2 · `totalCentimos`**: se quitaron los dos `Math.round`. El de la rama sin descuento
+  sobraba, pero el de la rama **con** descuento hace falta: con estos datos sale exacto por
+  casualidad (3980 × 0,9 = 3582), pero un 15 % sobre el teclado daría 22 924,5 céntimos.
+  Regla: redondear siempre que un cálculo pueda producir fracciones de céntimo.
 
 ---
 

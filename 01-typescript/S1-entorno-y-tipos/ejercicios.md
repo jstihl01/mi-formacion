@@ -4,7 +4,7 @@
 **Antes de empezar:** abre una terminal en la carpeta del bloque:
 
 ```bash
-cd C:\Users\JaimeStihl\Documents\mi-formacion\01-typescript
+cd C:\Users\JaimeStihl\Documents\mi-formacion-stack-web\01-typescript
 ```
 
 Todos los comandos de aquí abajo se lanzan desde ahí. Las dependencias ya están instaladas.

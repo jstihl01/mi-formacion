@@ -1,4 +1,4 @@
-# mi-formacion
+# mi-formacion-stack-web
 
 Curso propio para aprender el stack del proyecto de trabajo: **TypeScript, React, Next.js,
 MySQL, Prisma y Docker**.
@@ -27,7 +27,7 @@ sesión en curso, lo ya corregido y las dudas que quedaron abiertas.
 ## Estructura
 
 ```
-mi-formacion/
+mi-formacion-stack-web/
 ├─ README.md            este fichero
 ├─ PROGRESO.md          estado del curso: sesión actual, correcciones, dudas
 └─ 01-typescript/       Bloque 1
